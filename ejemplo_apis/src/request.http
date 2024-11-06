@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3000/api/ortodoncista HTTP/1.1
+Content-Type: application/json
+
+{
+    "id_permiso" : 1,
+    "rol" : "administrador",
+},
+{
+    "id_permiso" : 2,
+    "rol" : "jefe",
+},
+{
+    "id_permiso" : 3,
+    "rol" : "recepcionista",
+},
+{
+    "id_permiso" : "4",
+    "rol" : "paciente"
+},
+
+###
